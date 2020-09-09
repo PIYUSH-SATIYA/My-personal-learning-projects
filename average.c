@@ -1,8 +1,7 @@
    
 #include<stdio.h>  
-  
-int main()  
-{  
+
+    void average(){
     int num, limit, sum = 0, temp, count=1;  
     float avg;  
   
@@ -21,9 +20,11 @@ int main()
         count++;
     }  
     avg = sum / (float)temp;  
-  
     printf("Sum of these numbers = %d\n", sum);  
     printf("Average of these numbrs = %f\n", avg);  
-  
+}
+int main()  
+{   
+    average();
     return 0;  
 } 
