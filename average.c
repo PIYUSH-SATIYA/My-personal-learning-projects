@@ -1,9 +1,11 @@
    
 #include<stdio.h>  
+#include<conio.h>  
 
     void average(){
     int num, limit, sum = 0, temp, count=1;  
-    float avg;  
+    float avg;
+  
   
     printf("Enter, how many of numbers you wants to find average :- \n");  
     scanf("%d", &limit);  
@@ -21,10 +23,10 @@
     }  
     avg = sum / (float)temp;  
     printf("Sum of these numbers = %d\n", sum);  
-    printf("Average of these numbrs = %f\n", avg);  
+    printf("Average of these numbrs = %f\n", avg);   
 }
 int main()  
 {   
     average();
-    return 0;  
+    return 0; 
 } 
