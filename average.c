@@ -1,6 +1,5 @@
    
 #include<stdio.h>  
-#include<conio.h>  
 
     void average(){
     int num, limit, sum = 0, temp, count=1;  
